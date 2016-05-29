@@ -3,7 +3,6 @@
 	include_once 'check_login.php';
 	include_once 'connect.inc.php';
 	
-	//echo "category = $_GET['category'], usn = $_GET['usn'], pass= $_GET['passkey']";
 	if(!empty($_GET['category']) && (!empty($_GET['usn']) || !empty($_GET['email']) ) && !empty($_GET['passkey']))
 	{
 		$category=mysql_real_escape_string($_GET['category']);
@@ -39,7 +38,6 @@
 				$_SESSION['msg1']="<div style=\"color:red\"><b>Invalid operations.</b></div><br><br>";
 		}else if($category=="HOD")
 		{
-		//echo 'here';
 			$query3=mysql_query("SELECT activated FROM hod WHERE email='$email' AND confirmation='$passkey'") or die('Cannot execute query3');
 			$row3=mysql_fetch_assoc($query3);
 			if($row3['activated']==1)
