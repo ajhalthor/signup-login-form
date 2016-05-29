@@ -20,12 +20,9 @@
 				$_SESSION['category']=$_POST['category'];
 				echo json_encode(array("success" => true, "message" => 'Valid Details entered', "url" => 'portals/student/index.php#/'));
 				return ;
-				//header("location:portals/student/index.php#/");
 			}
 			else
 			{
-				//$_SESSION['msg1']="<div style=\"color:red\"><b>Invalid username or password.</b></div><br><br>";
-				//header("location:index.php");
 				echo json_encode(array("success" => false, "message" => 'Invalid username or password'));
 				return ;
 			}
@@ -38,14 +35,11 @@
 				$_SESSION['teacher_login']=$email;
 				$_SESSION['category']=$_POST['category'];
 				echo json_encode(array("success" => true, "message" => 'Valid Details entered', "url" => 'portals/teacher/'));
-				//header("location:portals/teacher/");
 				return;
 			}
 			else
 			{
-				//$_SESSION['msg1']="<div style=\"color:red\"><b><br>Invalid username or password.</b></div><br><br>";
 				echo json_encode(array("success" => false, "message" => 'Invalid username or password'));
-				//header("location:index.php");
 				return;
 			}
 		}
@@ -61,28 +55,23 @@
 				$row3=mysql_fetch_assoc($query3);
 				$_SESSION['dept_name']=$row3['name'];
 				$_SESSION['dept_no']=$row2['department'];
-				//header("location:portals/HOD/");
 				echo json_encode(array("success" => true, "message" => 'Valid Details Entered', "url" => "portals/HOD/"));
 				return;
 			}
 			else
 			{
 				$_SESSION['msg1']="<div style=\"color:red\"><b><br>Invalid username or password.</b></div><br><br>";
-				//header("location:index.php");
 				echo json_encode(array("success" => false, "message" => 'Invalid username or password'));
 				return;
 			}
 		}
 		else
 		{
-			//$_SESSION['msg1']="<div style=\"color:red\"><b>Please fill in all the details.</b></div><br><br>";
-			//header("location:index.php");
 			echo json_encode(array("success" => false, "message" => 'Please fill in all the details'));
 			return;
 		}
 	}
 	else{
-		//header("location:index.php");
 		echo json_encode(array("success" => false, "message" => 'Please Fill in your details'));
 		return;
 	}
