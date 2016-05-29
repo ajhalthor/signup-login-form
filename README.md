@@ -1,6 +1,8 @@
 # Signup-Login-Form
 A signup login form with validation using jQuery AJAX
 
+![Gif of Page](/gifs/intro_gif.gif?raw=true "Normal view")
+
 This signup-login page was designed keeping 4 user classes in mind:
 - Student
 - Teacher
@@ -17,6 +19,8 @@ Of course, they can be changed to your liking
 - **Database.** Also coupled with the backend database, in case you are working on a similar application
 - **Email.** Comes with the markup for a Welcome Mail! (which i will show later)
 - **Its responsive!** So, it looks good on all mobiles, tablets, laptops and desktops with any orientation.
+
+![Page is Responsive](/gifs/responsive_gif.gif?raw=true "Normal view")
 
 
 ##Usage
