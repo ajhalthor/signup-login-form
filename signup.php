@@ -24,58 +24,62 @@
 		$header= array("From: SJCE ","Content-type: text/html");
 		$message='
 		
-		<html>
-<head>
-<title>Title of email</title>
-</head>
+			<html>
+			<head>
+			<title>Title of email</title>
+			</head>
 
-<body>
+			<body>
 
-<div  style=" border:1px solid grey; padding:20px;">
-        <div style="font-size: 35px; margin: 30px;color:#C0392B;"><strong>Hello, Welcome !</strong> </div>
-        <p> Dear User,<br><br>
-        We really appreciate you signing up to SJCE. You are among 4000+ Users that will soon experience a modern Student Information System.</p><br>
+			<div  style=" border:1px solid grey; padding:20px;">
+			        <div style="font-size: 35px; margin: 30px;color:#C0392B;">
+			        	<strong>Hello, Welcome !</strong> 
+			        </div>
+			        <p> Dear User,<br><br>
+			       		 We really appreciate you signing up to SJCE. You are among 4000+ Users that will soon experience a modern Student Information System.
+			        </p><br>
 
-        <div id="instructions">
-                <div class="category">
-                        <div class="category-heading" style="font-weight: 500; font-size: 16px;"> Students </div>
-                        <ul class="category-instructions">
-                                <li> Just Login and start evaluating teachers as they appear.</li>
-                                <li> Appraise a single teacher Completely before moving on to the next.</li>
-                        </ul>
-                </div>
-                <div class="category">
-                        <div class="category-heading" style="font-weight: 500; font-size: 16px;"> HOD </div>
-                        <ul class="category-instructions">
-                                <li>You can view statistics of any teacher in your department.</li>
-                                <li>Just select the teacher, subject and competency</li>
-                        </ul>
-                </div>
-        </div>
-        <br>
-        <p>Here is your login details : </p>
-        <hr style="  width:80%; color:grey; text-align: center;">
+			        <div id="instructions">
+			                <div class="category">
+			                        <div class="category-heading" style="font-weight: 500; font-size: 16px;"> Students </div>
+			                        <ul class="category-instructions">
+			                                <li> Just Login and start evaluating teachers as they appear.</li>
+			                                <li> Appraise a single teacher Completely before moving on to the next.</li>
+			                        </ul>
+			                </div>
+			                <div class="category">
+			                        <div class="category-heading" style="font-weight: 500; font-size: 16px;"> HOD </div>
+			                        <ul class="category-instructions">
+			                                <li>You can view statistics of any teacher in your department.</li>
+			                                <li>Just select the teacher, subject and competency</li>
+			                        </ul>
+			                </div>
+			        </div>
+			        <br>
+			        <p>Here is your login details : </p>
+			        <hr style="  width:80%; color:grey; text-align: center;">
 
-        <span  style="color:#C0392B;">Username:</span> 4jc1355443 <br>
-        <span  style="color:#C0392B;">Password:</span> Your Nominated Password <br>
+			        <span  style="color:#C0392B;">Username:</span> 4jc1355443 <br>
+			        <span  style="color:#C0392B;">Password:</span> Your Nominated Password <br>
 
-        <hr style="width:80%; color:grey; text-align: center;"><br>
-               <div style="width:100%;background-color:#C0392B;line-height:40px;margin:0px auto;border-radius: .25rem;" >
-        <a href="http://www.yourwebsite.org/staff17/confirm.php?category='.$category.'&usn='.$usn.'&passkey='.$confirmation.'&email='.$email.'" style="color:white;text-align:center;text-decoration:none;display:block;"> Activate My Account </a>
-    </div>        <br><br><br>
-        <div>
-                 Thanks again, and if you ever have any questions or feedback, just send us an email :<br><br>
-                 <span style="color:#C0392B;"> Basanth Jenu :</span> basanthjenuhb@gmail.com <br>
-                 <span style="color:#C0392B;"> Ajay Halthor : </span> ajhalthor@gmail.com <br>
-                 <br>
-                 We read &amp; respond to every request!
-        </div>
+			        <hr style="width:80%; color:grey; text-align: center;"><br>
+			        <div style="width:100%;background-color:#C0392B;line-height:40px;margin:0px auto;border-radius: .25rem;" >
+			        	<a href="http://www.yourwebsite.org/staff17/confirm.php?category='.$category.'&usn='.$usn.'&passkey='.$confirmation.'&email='.$email.'" style="color:white;text-align:center;text-decoration:none;display:block;"> Activate My Account </a>
+					</div>       
+			 		<br><br><br>
+	        		<div>
+		                 Thanks again, and if you ever have any questions or feedback, just send us an email :<br><br>
+		                 <span style="color:#C0392B;"> Basanth Jenu :</span> b@gmail.com <br>
+		                 <span style="color:#C0392B;"> Ajay Halthor : </span> a@gmail.com <br>
+		                 <br>
+		                 We read &amp; respond to every request!
+	       			</div>
 
-</div>
+			</div>
 
-	</body>
-	</html>	
-		
+			</body>
+			</html>	
+					
 			
 		
 		';
