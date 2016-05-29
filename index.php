@@ -1,14 +1,15 @@
 <?php
 /*	include 'session.inc.php';
 	if(isset($_SESSION['student_login']))
-		header("location:portals/student/index.php#/");*/
+		header("location:portals/student/index.php#/");
+*/
 ?>
 
 <!DOCTYPE html>
 <?php 
 /*
 * Author : Ajay Halthor (Front end only), Basanth Jenu (Back end only)
-* Title : Login
+* Title : Login & Signup
 * Extra : 
    - We may need to reference bootstrap using // rather than be protocol specific (http/https)
 *  - See this link for more info : https://blog.httpwatch.com/2010/02/10/using-protocol-relative-urls-to-switch-between-http-and-https/
@@ -80,12 +81,7 @@ width: 10000px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-/*  -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);*/
-    z-index: -1;
+  z-index: -1;
  }
 
  .background-image-blur{
