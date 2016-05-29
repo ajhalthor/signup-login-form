@@ -1,0 +1,93 @@
+
+
+.invalid-field{
+	background-color:#B6334C !important;
+	color:white;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* Just to get a transition for the corrected fields entered to combat 'invalid-field'*/
+.valid-field{
+	background-color:transparent;
+	color: black;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#error-message{
+	color:#B6334C;
+	margin-top: 15px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+/******* State Properties ********/
+.is-hidden{
+	display:none;
+}
+
+.is-invisible{
+	visibility: hidden;
+}
+
+.is-visited{
+	background:#f5f5f5;
+	color: #16a085;
+}
+
+.is-unvisited{
+	background:#f5f5f5;
+}
+
+.is-active{
+	background: #16a085;
+	color: white;
+}
+
+.is-disabled {
+ 	pointer-events: none;
+ 	cursor: default;
+}
+
+.min-btn-padding{
+	padding:4px 8px;
+}
+
+
+/*Theme Styles*/
+
+.light-blue{color:#3498DB;}
+.green{color:#00C957;}
+.red{color: red;}
+.maroon{color:#C0392B;}
+.dark-green{color: #27AE60;}
+.lemon-yellow{color:#2ECC71;}
+.orange-yellow{color:#F39C12;}
+.orange{color:#E67E22;}
+.dark-orange{color:#D35400;}
+.yellow{color:yellow;}
+.white{color: white;}
+.light-grey{color : #ECF0F1;}
+
+.background-light-blue{background-color: #3498DB;}
+.background-green{background-color: #1ABC9C;}
+.background-red{background-color: red;}
+.background-maroon{background-color: #C0392B;}
+.background-dark-green{background-color: #16A085;}
+.background-lemon-yellow{background-color:#F1C40F;}
+.background-orange-yellow{background-color:#F39C12;}
+.background-orange{background-color:#E67E22;}
+.background-dark-orange{background-color:#D35400;}
+.background-yellow{background-color:yellow;}
+.background-white{background-color: white;}
+.background-light-grey{background-color : #ECF0F1;}
+
