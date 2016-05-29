@@ -2,10 +2,10 @@
 A signup login form with validation using jQuery AJAX
 
 This signup-login page was designed keeping 4 user classes in mind:
-	- Student
-	- Teacher
-	- HOD (that is 'Head of Department')
-	- Administration
+- Student
+- Teacher
+- HOD (that is 'Head of Department')
+- Administration
 
 Of course, they can be changed to your liking
 
