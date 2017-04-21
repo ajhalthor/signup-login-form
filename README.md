@@ -12,7 +12,7 @@ This signup-login page was designed keeping 4 user classes in mind:
 Of course, they can be changed to your liking
 
 
-##Features 
+## Features 
 
 - **Intelligent.** The Fields change depending on the user
 - **Validation.** Provides appropriate validation for various fields. 
@@ -23,7 +23,7 @@ Of course, they can be changed to your liking
 ![Page is Responsive](/gifs/responsive_gif.gif?raw=true "Normal view")
 
 
-##Usage
+## Usage
 
 - The user first signs up. If the password is adequate and the email entered is registered in the database, then a confirmation link is sent.
 - From this welcome mail, the user activates his account by clicking on the activation link.
@@ -31,7 +31,7 @@ Of course, they can be changed to your liking
 - Now the user logs in with their new username and password.
 
 
-##Files
+## Files
 
 - check_login.php : It just checks if the user has already logged in. It will go directly to thier page if so.
 - connect.inc.php : Used to connect to the database
