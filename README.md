@@ -40,4 +40,4 @@ Of course, they can be changed to your liking
 - login.js : Consists of the validation code for all fields
 - login.php : consists of the backend code for the login form.
 - signup.php : has the backend code for the signup form AND the markup for the welcome email
-- confirm.php : activates the user account and is triggered from the welcome mail
+- confirm.php : activates the user account and is triggered from the welcome mail#
