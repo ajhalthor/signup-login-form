@@ -18,7 +18,7 @@
 			else if(mysql_num_rows($query1)==1)
 			{
 				$query2=mysql_query("UPDATE users SET activated=1 WHERE usn='$usn' AND confirmation='$passkey'") or die('Cannot execute query2');
-				$_SESSION['msg1']="<div style=\"color:green\"><b>Your account has been activated successfully.</b></div><br><br>";
+				$_SESSION['msg1']="<div style=\"color:gray\"><b>Your account has been activated successfully.</b></div><br><br>";
 			}
 			else
 				$_SESSION['msg1']="<div style=\"color:red\"><b>Invalid operations.</b></div><br><br>";
